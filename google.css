@@ -1,0 +1,77 @@
+.google_img{
+    width: 351px;
+    height:113px ;
+    aspect-ratio: 351 / 113 ;
+}
+
+html{
+    display: block;
+}
+div{
+    display: block;
+    text-align: -webkit-center;   
+    color: #000000;
+}
+.first_div{
+    /* position: relative; */
+position: absolute;
+left: 40%;
+}
+body{
+    background:#ffffff;
+    margin: 8px;
+    display: block;
+    background-image: url(/web/19981202230410im_/http://www.google.com/alpha.jpg)
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.tr_first{
+     background: #eeeeee;
+     display: block;
+}
+td{
+    background: #eeeeee;
+    column-span: 3;
+    display: table-cell;
+    vertical-align: inherit;
+}
+ table{
+        border: 0;
+        width: 90%;
+} 
+.td_first{
+    background-color: #7EE5DA;
+    width: 6%;
+   
+    
+
+}
+.td_second{
+    background-color: #70CCC2;
+    width: 5%;
+
+
+
+
+
+}
+.td_third{
+    /* text-align: right; */
+    background-color: #62B3AA;
+    /* display: table-cell; */
+    /* vertical-align: inherit; */
+    width: 10%;
+   
+ 
+   
+}
+.font-size{
+    font-size: small;
+}
+#Copyright{
+   position: relative;
+   top: 10px;
+}
